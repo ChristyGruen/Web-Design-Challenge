@@ -1,0 +1,142 @@
+.navbar li {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 3px;
+  }
+
+  .navbar li a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.navbar {
+    padding: 10px;
+    background-color: #5191fd;
+    position: relative;
+  }
+
+.container-fluid {
+    background-color: rgb(84, 163, 137);
+    
+
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bolder;
+}
+
+body {
+    background-color: lightgray;
+
+}
+
+/* #Limage1 {
+    float:left;
+    /* width: 200px;
+    height: 200px; 
+    margin: 10px;
+    margin-right: 2%;
+    margin-left: 0;
+} */
+
+#Lcontainer1 {
+
+    float:left;
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 5%;
+    background-color: mediumpurple;
+   
+}
+
+#Lcontainer2 {
+
+    float:left;
+    margin-top: 50px;
+    padding: 2%;
+    background-color: cornflowerblue;
+
+   
+}
+
+#Lcontainer3 {
+
+    float:left;
+    margin-top: 50px;
+    padding: 2%;
+    background-color: lightpink;
+   
+}
+
+.img1 {
+    float:left;
+    width: 25%;
+    height: auto;
+    margin: 10px;
+    margin-right: 2%;
+    margin-left: 0;
+}
+
+.img2 {
+    float:left;
+    width: 44%;
+    height: auto;
+    padding: 4%
+    /* margin-right: 2%;
+    margin-left: 2%; */
+}
+
+.rowpad {
+    margin-bottom: 10%;
+}
+/* 
+#Lparagraph1 {
+
+    float:left;
+    width: 60%;
+    margin-left: 5%;
+   
+} */
+
+#main-bio {
+    float:left;
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 5%;
+   
+}
+
+.figure {
+    margin: 20px;
+    position: relative;
+}
+
+
+
+#bio-image {
+    float:left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    margin-right: 2%;
+    margin-left: 0;
+}
+
+/* .container {
+    width: 1024px;
+    margin: 0 auto;
+} */
+
+#contact-info {
+    float:left;
+    line-height: 1.5;
+    margin-left: 5%;
+    width: 30%;
+
+}
