@@ -58,21 +58,15 @@ h3 {
         font-size: 50px;
         font-weight: bolder;
     }
+    .body {
+        background-color: chartreuse;
+    }
 }
 
-body {
+.body {
     background-color: lightgray;
 
 }
-
-/* #Limage1 {
-    float:left;
-    /* width: 200px;
-    height: 200px; 
-    margin: 10px;
-    margin-right: 2%;
-    margin-left: 0;
-} */
 
 #Lcontainer1 {
 
@@ -80,7 +74,7 @@ body {
     width: 100%;
     margin-top: 50px;
     margin-left: 5%;
-    background-color: mediumpurple;
+    background-color: #fff; 
    
 }
 
@@ -120,12 +114,6 @@ body {
     margin-right: 2%;
     margin-left: 2%;
 }
-/* 
-.carousel-caption {
-    top: 0;
-    bottom:auto;
-    z-index: 10;
-} */
 
 .pad2 {
     margin-bottom: 2%;
@@ -144,41 +132,3 @@ body {
 .rowpad {
     margin-bottom: 10%;
 }
-/* 
-#Lparagraph1 {
-
-    float:left;
-    width: 60%;
-    margin-left: 5%;
-   
-} */
-/* 
-#main-bio {
-    float:start;
-    width: 60%;
-    margin-top: 50px;
-    margin-left: 5%;
-   
-}
-
-#bio-image {
-    float:start;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    margin-right: 2%;
-    margin-left: 0;
-}
-
-/* .container {
-    width: 1024px;
-    margin: 0 auto;
-} */
-
-#contact-info {
-    float:start;
-    line-height: 1.5;
-    margin-left: 5%;
-    width: 30%;
-
-} */

@@ -56,45 +56,61 @@
         
         <!--https://mdbootstrap.com/docs/standard/layout/horizontal-alignment/  -->
         <div class="row d-flex justify-content-center">
-          <div class="col-md-7">
-            <main class ='container-fluid' id = "Lcontainer2">
+          <div class="col-md-10">
+            <main class ='container-fluid' id = "Lcontainer1">
               <div class = "row">
-                <h3>Summary: Latitude vs. X</h3>
+                <h3>Data</h3>
+                <br>
+                <br>
+                <h6  >The following table includes all of the data used for plotting during this project.</h6>
+                <br>
+                <br>
               </div class = "row">
               <div class = "row">
-                <div class = "col-mid-12">
-                  <img class = "img1" src="assets/images/Fig1.png" alt="City Latitude vs. Max Temperature (2022-11-06)">
-                  <p>The purpose of this study was to provide comprehensive data to answer a fundamental question:  What is the weather like as we approach the equator?            
-                    <br>
-                    <br>
-                    In this study, data on a single day (Nov 6, 2022) from over 500 random cities of varying distances from the equator were evaluated to visualize the potential relationships between latitude and temperature, humidity, cloudiness, and wind speed in both the Northern and Southern hemispheres. Data was obtained from OpenWeather https://openweathermap.org/.
-                  </p>
-                </div>
+                <table datascr='#data'id='table1'>
+                  <thead>
+                      <!-- <tr>
+                          <th colspan = '4'> WeatherPy data Q2 </th>
+                      </tr> -->
+                      <tr>
+                        <th>City_ID</th>
+                        <th>City</th>
+                        <th>Cloudiness</th>
+                        <th>Country</th>
+                        <th>Date</th>
+                        <th>Humidity</th>
+                        <th>Lat</th>
+                        <th>Lng</th>                         
+                        <th>Max Temp</th>
+                        <th>Wind Speed</th>                         
+                    </tr>      
+                  </thead>
+              
+                  <tbody>
+                    <th><span datafld ='City_ID'></span></th>
+                    <th><span datafld ='City'></span></th>
+                    <th><span datafld ='Cloudiness'></span></th>
+                    <th><span datafld ='Country'></span></th>
+                    <th><span datafld ='Date'></span></th>
+                    <th><span datafld ='Humidity'></span></th>
+                    <th><span datafld ='Lat'></span></th>
+                    <th><span datafld ='Lng'></span></th>                         
+                    <th><span datafld ='Max'></span> Temp</th>
+                    <th><span datafld ='Wind Speed'></span></th>  
+                  </tbody>
+              
+              </table>
+              <script language="javascript" type="text/javascript">
+                setFilterGrid("table1");
+                </script>
+                
+                <object ID=data classid="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83">
+                <param nAme="/resources/cities.csv" value="cities.csv">
+                <param nAme="UseHeader" value="true">
+                </object>
+
               </div>
             </main>
-          </div>
-          <div class="col-md-3">
-            <div class = 'container-fluid' id = "Lcontainer3">
-              <h3>Visualizations</h3>
-                  <div class ="row" >
-                      <div class="col-md-6 col-sm-3">
-                            <a target ="_blank" href="visualizations/temp.html"><img class = 'img2' src="assets/images/Fig1.png" alt="City Latitude vs. Max Temperature (2022-11-06)" > 
-                            </a>
-                      </div>
-                      <div class="col-md-6 col-sm-3">
-                            <a target ="_blank" href="visualizations/humidity.html"><img class = 'img2' src="assets/images/Fig2.png" alt="City Latitude vs. Humidity (2022-11-06)">
-                            </a>
-                      </div>
-                    <div class="col-md-6 col-sm-3">
-                          <a target ="_blank" href="visualizations/cloudiness.html"><img class = 'img2' src="assets/images/Fig3.png" alt="City Latitude vs. Cloudiness (2022-11-06)">
-                          </a>
-                    </div>
-                    <div class="col-md-6 col-sm-3">
-                          <a target ="_blank" href="visualizations/wind.html"><img class = 'img2' src="assets/images/Fig4.png" alt="City Latitude vs. Wind Speed (2022-11-06)">
-                          </a>
-                    </div>
-                </div>     
-            </div>  
           </div>
         </div>
     
