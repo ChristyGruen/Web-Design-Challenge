@@ -37,8 +37,6 @@ h3 {
     background-color: #fff;
   }
 
-
-
 .navbar-brand {
     color: white;
     font-weight: bold;
@@ -48,9 +46,14 @@ h3 {
     margin-top: 10px;
 }
 
+
+
 /* how do you know when to change from one type to another?  992 when nav par changes, 767 when bootstrap grid changes on index page */
 
 @media (max-width: 767px) {
+    body {
+        background-color: white;
+    }
     .navbar {
         background-color: rgb(84, 163, 137);
     }
@@ -58,21 +61,26 @@ h3 {
         font-size: 50px;
         font-weight: bolder;
     }
-    .body {
-        background-color: chartreuse;
-    }
-}
-
-.body {
-    background-color: lightgray;
 
 }
+
+
+@media(min-width: 768px) {
+body {
+    background-color: lightgrey;
+
+}
+}
+
+
+
 
 #Lcontainer1 {
 
     float:start;
-    width: 100%;
+    width: auto;
     margin-top: 50px;
+    margin-right: 5%;
     margin-left: 5%;
     background-color: #fff; 
    
