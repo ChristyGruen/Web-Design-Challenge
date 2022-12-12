@@ -18,7 +18,8 @@
   <body>
 
     <!-- Start of navbar -->
-    <nav class="navbar navbar-expand-lg">
+    <!-- https://stackoverflow.com/questions/19827605/change-bootstrap-navbar-collapse-breakpoint-without-using-less -->
+    <nav class="navbar navbar-expand-md">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">Latitude</a>
         <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +35,7 @@
                 <li><a class="dropdown-item" href="visualizations/temp.html">Max Temperature</a></li>
                 <li><a class="dropdown-item" href="visualizations/humidity.html">Humidity</a></li>
                 <li><a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a></li>
-                <li><a class="dropdown-item" href="visualizations/wind.html">windspeed</a></li>
+                <li><a class="dropdown-item" href="visualizations/wind.html">Wind Speed</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -70,7 +71,10 @@
                   <p>The purpose of this study was to provide comprehensive data to answer a fundamental question:  What is the weather like as we approach the equator?            
                     <br>
                     <br>
-                    In this study, data on a single day (Nov 6, 2022) from over 500 random cities of varying distances from the equator were evaluated to visualize the potential relationships between latitude and temperature, humidity, cloudiness, and wind speed in both the Northern and Southern hemispheres. Data was obtained from OpenWeather https://openweathermap.org/.
+                    In this study, data on a single day from over 500 random cities of varying distances from the equator were evaluated to visualize the potential relationships between latitude and temperature, humidity, cloudiness, and wind speed in both the Northern and Southern hemispheres. Data was obtained from OpenWeather https://openweathermap.org/. 
+                    <br>
+                    <br>                  
+                    Based on the data collected on 561 random cities on November 6, 2022, temperature increases and wind speed appears to decrease as we approach the equator.  Humidity and cloudiness did not appear to be correlated with latitude.
                   </p>
                 </div>
               </div>
@@ -109,6 +113,18 @@
     
 
           <!-- End of the Visualizations imageNav Area -->
+
+    <footer class = 'mt-auto footer'>
+      <h5>Attribution</h5>
+        <p>
+          ‘Weather data provided by OpenWeather’
+          https://openweathermap.org/
+          <br>
+          Powered by https://www.geoapify.com/ Geoapify
+          <br>
+          Powered by https://www.openstreetmap.org/copyright © OpenStreetMap contributors
+        </p>
+    </footer>
     <!-- End of container -->
 
     <!-- jQuery CDN -->

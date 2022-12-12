@@ -18,7 +18,7 @@
   <body>
 
     <!-- Start of navbar -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-md">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">Latitude</a>
         <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,7 @@
                 <li><a class="dropdown-item" href="temp.html">Max Temperature</a></li>
                 <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
                 <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
-                <li><a class="dropdown-item" href="wind.html">windspeed</a></li>
+                <li><a class="dropdown-item" href="wind.html">Wind Speed</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -69,12 +69,16 @@
                   <div class="card pad5">
                     <div class="card-body">
                       <!-- <h5 class="card-title greenheader col d-flex justify-content-center">vs Max Temperature</h5> -->
-                      <a target ="_blank" href="temp.html"><img class = 'img2' src="../assets/images/Fig1.png" alt="City Latitude vs. Max Temperature (2022-11-06)" > 
+                      <a target ="_blank" href="../assets/images/Fig1.png"><img class = 'img2' src="../assets/images/Fig1.png" alt="City Latitude vs. Max Temperature (2022-11-06)" > 
                       </a>
                     </div>
                   </div>
                   <p>
-                    ADD TEMP SPECIFIC INFO HERE In this study, data on a single day (Nov 6, 2022) from over 500 random cities of varying distances from the equator were evaluated to visualize the potential relationships between latitude and temperature, humidity, cloudiness, and wind speed in both the Northern and Southern hemispheres. Data was obtained from OpenWeather https://openweathermap.org/.
+                    In the northern hemisphere, there is a very strong negative correlation (r = -0.84) between latitude and max temperature.  In the southern hemisphere, there is a moderate correlation (r = 0.53) between latitude and max temperature.  In both hemispheres, the max temperature increases as you approach the equator (latitude = 0). 
+                    <br>
+                    The northern latitude appears to have a greater temperature difference (-33C to 33C) than the southern latitude (9C to 33C), but the city locations in the northern latitudes also span a much greater range of latitudes (lat 0 to 77) than the cities in the southern latitudes (lat 0 to -55). Additional data and/or analysis would be required to evaluate differences between the two hemispheres.
+                    <br>
+                    Data was obtained from OpenWeather https://openweathermap.org/.
                   </p>
                 </div>
               </div>
@@ -110,7 +114,17 @@
           </div>
         </div>
     
-    
+        <footer class = 'mt-auto footer'>
+          <h5>Attribution</h5>
+            <p>
+              ‘Weather data provided by OpenWeather’
+              https://openweathermap.org/
+              <br>
+              Powered by https://www.geoapify.com/ Geoapify
+              <br>
+              Powered by https://www.openstreetmap.org/copyright © OpenStreetMap contributors
+            </p>
+        </footer>
 
           <!-- End of the Visualizations imageNav Area -->
     <!-- End of container -->

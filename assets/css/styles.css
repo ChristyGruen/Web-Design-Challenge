@@ -1,3 +1,4 @@
+/* header colors */
 h1 {
     color:rgb(84, 163, 137)
 }
@@ -7,49 +8,25 @@ h2 {
 h3 {
     color:rgb(84, 163, 137)
 }
-
 .greenheader {
     color:rgb(84, 163, 137)
 }
 
-
-.navbar li {
-    display: inline-block;
-    /* padding: 10px; */
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    background-color: #fff;
-    border-radius: 3px;
-  }
-
-  .navbar li a {
-    color: black;
-    text-decoration: none;
-}
-
-
+/* navbar formatting */
 .navbar {
-    padding: 10px;
+    /* padding: 10px; */
     position: relative;
     background-color: #fff;
   }
 
 .navbar-brand {
-    color: white;
-    font-weight: bold;
+    color: #fff;
     background-color: rgb(84, 163, 137);
-    font-size: 25px;
-    padding: 20px;
-    margin-top: 10px;
+    padding: 10px;
+    /* margin-top: 10px; */
 }
 
-
-
-/* how do you know when to change from one type to another?  992 when nav par changes, 767 when bootstrap grid changes on index page */
-
+/* formatting based on media size */
 @media (max-width: 767px) {
     body {
         background-color: white;
@@ -64,17 +41,23 @@ h3 {
 
 }
 
-
 @media(min-width: 768px) {
-body {
-    background-color: lightgrey;
-
+    body {
+        background-color: lightgrey;
+    }
+    .navbar {
+        background-color: #fff;
+    }
+    .navbar-brand {
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
 }
-}
 
 
 
-
+/* other object formatting */
 #Lcontainer1 {
 
     float:start;
@@ -92,7 +75,7 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 5%;
-    background-color: lightskyblue;
+    background-color:#fff;
 
    
 }
@@ -102,7 +85,7 @@ body {
     float:start;
     margin-top: 50px;
     padding: 2%;
-    background-color: lightpink;
+    background-color: #fff;
    
 }
 
@@ -123,20 +106,10 @@ body {
     margin-left: 2%;
 }
 
-.pad2 {
-    margin-bottom: 2%;
-}
 .pad5 {
     margin-bottom: 5%;
 }
-.rowpad2 {
-    margin-bottom: 2%;
-}
 
-.rowpad5 {
-    margin-bottom: 5%;
-}
-
-.rowpad {
-    margin-bottom: 10%;
+.footer {
+    color:rgb(84, 163, 137);
 }
