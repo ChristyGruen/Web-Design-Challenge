@@ -19,6 +19,10 @@ h3 {
     background-color: #fff;
   }
 
+.pineapple {
+    background-color: white
+}
+
 .navbar-brand {
     color: #fff;
     background-color: rgb(84, 163, 137);
@@ -29,7 +33,7 @@ h3 {
 /* formatting based on media size */
 @media (max-width: 767px) {
     body {
-        background-color: white;
+        background-color: #ffff;
     }
     .navbar {
         background-color: rgb(84, 163, 137);
@@ -38,7 +42,16 @@ h3 {
         font-size: 50px;
         font-weight: bolder;
     }
-
+    .navwhite {
+        background-color: #ffff;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .borderwhite {
+        border-color: #ffff;
+    }
+ 
 }
 
 @media(min-width: 768px) {
