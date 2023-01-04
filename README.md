@@ -5,6 +5,16 @@ Module 11 Homework saved in the Web-Design-Challenge repository.
 
 Latitude Study website  <a href = 'https://christygruen.github.io/Web-Design-Challenge/'> https://christygruen.github.io/Web-Design-Challenge/</a>
 
+### **Attribution**
+‘Weather data provided by OpenWeather’
+https://openweathermap.org/
+
+Powered by https://www.geoapify.com/ Geoapify
+
+Powered by https://www.openstreetmap.org/copyright © OpenStreetMap contributors
+
+Data analyses obtained from https://github.com/ChristyGruen/python-api-challenge
+
 ---
 
 # &#x1F31E; &#x26C5; &#x2601; &#x1F327; &#x1F308; &#x1F327; &#x2601; &#x26C5; &#x1F31E;
